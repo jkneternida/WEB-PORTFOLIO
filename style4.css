@@ -1,0 +1,128 @@
+
+
+* {
+  Margin: 0;
+  Padding: 0;
+  Box-Sizing: Border-Box;
+  Font-Family: "Poppins", Sans-Serif;
+}
+A {
+  Text-Decoration: None;
+}
+.Hero {
+  Width: 100%;
+  Height: 100vh;
+  Background: Url(it1.jpg);
+  Background-Size: Cover;
+}
+Nav {
+  Display: Flex;
+  Align-Items: Center;
+  Justify-Content: Space-Between;
+  Padding: 30px 100px;
+}
+Nav Ul Li {
+  List-Style: None;
+  Display: Inline-Block;
+  Padding: 10px 20px;
+}
+Nav Ul Li A {
+  Color: #1d1d24;
+  Position: Relative;
+  Padding: 5px 0;
+}
+Nav Ul Li A:hover {
+  Color: #3bf32a;
+}
+Nav Ul Li A:after {
+  Content: "";
+  Position: Absolute;
+  Left: 0;
+  Width: 0;
+  Height: 3px;
+  Background: #13e047;
+  Transition: 0.3s;
+  Bottom: 0;
+}
+Nav Ul Li A:hover:after {
+  Width: 100%;
+}
+.Btn {
+  Color: #Fff;
+  Font-Size: 16px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 2px;
+  Padding: 16px 40px;
+  Border-Radius: 500px;
+  Display: Inline-Block;
+  Font-Weight: 500;
+  Transition: All 0.4s Ease-In-Out;
+  Background-Size: 152% 100%;
+  Background: #c9ec29;
+  Border: 2px Solid #269b0f;
+}
+.Btn:hover {
+  Background: Transparent;
+  Border-Color: #c9ec29;
+  Color: #14eb31;
+}
+.Content {
+  Position: Absolute;
+  Top: 35%;
+  Left: 8%;
+}
+.Content .Title {
+  Color: #0a0a0a;
+  Font-Size: 15px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 4px;
+  Display: Inline-Block;
+  Margin-Bottom: 20px;
+  Background: Linear-Gradient(
+    120deg,
+    #dee4e9 20.69%,
+    #c9ec29 50.19%,
+    #Fd4766 79.69%
+  );
+  -Webkit-Background-Clip: Text;
+  -Webkit-Text-Fill-Color: Transparent;
+}
+.Content H1 {
+  Color: #1f1f25;
+  Font-Size: 75px;
+  Font-Weight: 900;
+  Line-Height: 90px;
+  Text-Transform: Inherit;
+  Width: 70%;
+}
+.Content H1 Span {
+  Color: #9cf310;
+}
+.Content P {
+  Width: 55%;
+  Color: #202020;
+  Margin-Top: 25px;
+  Margin-Bottom: 30px;
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+
+.fa-facebook {
+  
+  color: white;
+}
+
+.fa-twitter {
+  
+  color: white;
+}
+.fa-instagram {
+  
+  color: rgb(247, 243, 243);
+}
